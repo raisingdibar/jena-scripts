@@ -1,0 +1,10 @@
+run/
+data/
+apache-jena-*/
+.lsp
+.cpcache
+.clj-kondo
+.calva
+.DS_Store
+
+mappingbased-literals_lang=en.ttl

@@ -1,0 +1,6 @@
+{:deps {com.yetanalytics/flint {:mvn/version "0.2.1"
+                                :exclusions [org.clojure/clojure
+                                             org.clojure/clojurescript]}
+        com.yetanalytics/flint-jena {:mvn/version "0.1.2"
+                                     :exclusions [org.clojure/clojure]}
+        org.babashka/http-client {:mvn/version "0.3.11"}}}

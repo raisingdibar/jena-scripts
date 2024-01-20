@@ -1,0 +1,5 @@
+{:paths ["bb"]
+ :tasks {start-jena
+         (shell (let [JENA_HOME "/Users/jtd/Developer/jena/apache-jena-fuseki-4.10.0/fuseki-server"
+                      TYLER_TTL "/Users/jtd/Developer/Ontologies/personal/tyler.ttl"]
+                  (clojure.string/join " " [ JENA_HOME "--file" TYLER_TTL "/jtd"])))}}
